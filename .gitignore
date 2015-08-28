@@ -68,3 +68,7 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 
+
+### File based DB ###
+testdb
+testdb.*

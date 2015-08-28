@@ -1,15 +1,12 @@
 package com.svs.lookup;
 
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 
-import com.wordnik.swagger.jaxrs.config.BeanConfig;
 
-public class SwaggerServlet extends HttpServlet {
-    /**
+public class SwaggerServlet extends HttpServlet {/*
+    *//**
 	 * 
-	 */
+	 *//*
 	private static final long serialVersionUID = 1L;
 
 	@Override
@@ -18,8 +15,8 @@ public class SwaggerServlet extends HttpServlet {
 
         BeanConfig beanConfig = new BeanConfig();
         beanConfig.setVersion("1.0.2");
-        beanConfig.setBasePath("http://localhost:8002/api");
+        beanConfig.setBasePath("http://localhost:9000/svs");
         beanConfig.setResourcePackage("com.svs.lookup");
         beanConfig.setScan(true);
     }
-}
+*/}
